@@ -2,6 +2,7 @@
 
 ![Team](../examples/animated-explainer/team.jpg)
 ![Counter](../examples/animated-explainer/counter.jpg)
+![News](../examples/animated-explainer/news.jpg)
 ![Listicle](../examples/animated-explainer/listicle.jpg)
 
 **What it is:** four repeatable animated formats in your brand look (one accent colour, a new beat every 1–2 s), mixing real screenshots and clips with animated parts and a narrator:

@@ -1,6 +1,7 @@
 # Talking head (dense edit)
 
-![Frames](../examples/talking-head/product.jpg)
+![Frames](../examples/talking-head/news-1.jpg)
+![Frames](../examples/talking-head/news-2.jpg)
 
 **What it is:** you on camera, edited densely. The layout switches beat by beat between full face, split screen (graphic on top, face below) and a full-screen graphic. Real logos and real product UI, a new visual every 1–2 s, word captions with one accent word, and a short digital tick on every cut. 45–75 s.
 
