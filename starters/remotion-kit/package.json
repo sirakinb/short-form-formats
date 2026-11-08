@@ -1,0 +1,30 @@
+{
+  "name": "remotion-kit",
+  "private": true,
+  "type": "module",
+  "description": "Short-form video starter kit for Remotion: talking head, listicle, counter, game parody and covers, styled from brand/brand.json.",
+  "scripts": {
+    "brand": "node scripts/sync-brand.mjs",
+    "assets": "python3 scripts/make-assets.py",
+    "prestudio": "npm run brand",
+    "studio": "remotion studio src/index.ts",
+    "prerender": "npm run brand",
+    "render": "remotion render src/index.ts",
+    "prestill": "npm run brand",
+    "still": "remotion still src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "preview": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.300",
+    "@remotion/cli": "4.0.300",
+    "@remotion/renderer": "4.0.300",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.300"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

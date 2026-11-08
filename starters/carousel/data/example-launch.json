@@ -1,0 +1,103 @@
+{
+  "_about": "TEMPLATE for the news lane. Replace every [bracketed] value with facts from the official announcement, post within 24 to 48 hours of the launch, and swap the theme and lab_logo to match the lab. This is not a real launch.",
+  "theme": "anthropic",
+  "lab_logo": "claude.svg",
+  "product_icon": "claude.svg",
+  "slides": [
+    {
+      "type": "hook",
+      "new": true,
+      "chip": "[Launch date]",
+      "lead": "[Lab] just launched",
+      "product": "[Product].",
+      "sub": "Here is how to use it for [the outcome your audience wants].",
+      "icon": "claude.svg"
+    },
+    {
+      "type": "features",
+      "kicker": "The launch",
+      "title": "Meet [Product].",
+      "sub": "[One sentence on what it is, in plain words.]",
+      "items": [
+        [
+          "[Feature 1]",
+          "[What it does, in one line.]"
+        ],
+        [
+          "[Feature 2]",
+          "[What it does, in one line.]"
+        ],
+        [
+          "[Who can use it]",
+          "[Plans, regions, waitlist.]"
+        ]
+      ],
+      "foot": "Source: [official announcement]"
+    },
+    {
+      "type": "diagram",
+      "kicker": "The idea",
+      "title": "[Product] plus your workflow.",
+      "sub": "[One line on how your product helps people use the launch.]",
+      "nodes": [
+        "[Use case 1]",
+        "[Use case 2]",
+        "[Use case 3]"
+      ]
+    },
+    {
+      "type": "step",
+      "kicker": "Step 1",
+      "title": "[First action].",
+      "sub": "[Where to click, in one sentence.]",
+      "shot": "placeholder-shot.png",
+      "crop": [
+        0.15,
+        0.3,
+        0.7,
+        0.4
+      ],
+      "foot": "[Screen name]"
+    },
+    {
+      "type": "step",
+      "kicker": "Step 2",
+      "title": "[Second action].",
+      "prompt": "[Paste the exact prompt you used, word for word, so people can copy it.]",
+      "foot": "Save this prompt",
+      "shot": "placeholder-shot.png",
+      "crop": [
+        0.15,
+        0.3,
+        0.7,
+        0.4
+      ]
+    },
+    {
+      "type": "list",
+      "kicker": "Before you try it",
+      "title": "Good to know.",
+      "items": [
+        [
+          "[Limit 1]",
+          "[Plan, region or waitlist detail.]"
+        ],
+        [
+          "[Limit 2]",
+          "[What it does not do yet.]"
+        ],
+        [
+          "[Safety note]",
+          "[What to review before it acts.]"
+        ]
+      ]
+    },
+    {
+      "type": "cta",
+      "kicker": "Want the guide?",
+      "title": "[Short payoff line].",
+      "sub": "[One line on what they get from {name}.]"
+    }
+  ],
+  "caption": "[Lab] just launched [Product]: [one sentence on what it does]. Here is how to use it for [outcome] in [number] steps, plus the prompt to copy. [One line on how {name} helps.] {cta}. [Question for the comments]?\n\n#[lab] #[product] #ainews #aitools #[niche] #[niche] #contentcreator #[brand]"
+}

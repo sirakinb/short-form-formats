@@ -1,0 +1,58 @@
+{
+  "title": "Three habits that make short videos easier",
+  "audio": "vo.mp3",
+  "words": "words.json",
+  "look": "dark",
+  "hold": 2.0,
+  "scenes": [[0, 1], [2, 3], [4, 5], [6, 7]],
+  "lines": [
+    {
+      "text": "Short videos get easier with three simple habits.",
+      "slam": "three",
+      "card": {"type": "counter", "from": 0, "to": 3, "label": "habits", "at": "habits."}
+    },
+    {
+      "text": "First, write the script before you open the camera.",
+      "slam": "script",
+      "card": {"type": "cursor-click", "title": "New video", "button": "Write script", "done": "Script ready", "at": "script"}
+    },
+    {
+      "text": "Hook, point, proof, ending. Four lines are enough.",
+      "slam": "Four",
+      "card": {"type": "list-ticks", "title": "Your script", "items": [
+        {"label": "Hook", "at": "Hook,"},
+        {"label": "Point", "at": "point,"},
+        {"label": "Proof", "at": "proof,"},
+        {"label": "Ending", "at": "ending."}
+      ], "allAt": "enough."}
+    },
+    {
+      "text": "Second, change what's on screen every few seconds.",
+      "slam": "few seconds.",
+      "card": {"type": "gauge", "label": "Seconds per shot", "from": 0.9, "to": 0.3, "value": "3 s", "color": "success", "at": "few"}
+    },
+    {
+      "text": "Long static shots lose people. Quick changes hold them.",
+      "slam": "hold",
+      "card": {"type": "bar-grow", "title": "Who keeps watching", "bars": [
+        {"label": "Static shot", "value": 0.7, "to": 0.25},
+        {"label": "Quick changes", "value": 0.45, "to": 0.9}
+      ], "raceAt": "Quick", "tag": {"bar": 1, "text": "WINS", "at": "hold"}}
+    },
+    {
+      "text": "Third, end on one clear next step.",
+      "slam": "one",
+      "card": {"type": "quote", "text": "Follow for part two.", "highlight": ["part", "two."], "by": "One ending, one ask", "at": "clear"}
+    },
+    {
+      "text": "Do all three and every video gets faster to make.",
+      "slam": "faster",
+      "card": {"type": "counter", "from": 1, "to": 12, "label": "videos finished", "at": "faster", "note": "Values illustrative"}
+    },
+    {
+      "text": "Follow for more simple video tips.",
+      "slam": "Follow",
+      "card": {"type": "cta-profile", "button": "Follow", "at": "tips."}
+    }
+  ]
+}

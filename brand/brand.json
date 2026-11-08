@@ -1,0 +1,55 @@
+{
+  "_comment": "Your brand kit. Every starter and guide reads this file. Copy it, change the values, keep the keys.",
+  "name": "Your Brand",
+  "handle": "@yourhandle",
+  "url": "yourbrand.com",
+  "logo": "brand/logo.svg",
+  "theme": "pentridge-dark",
+  "colors": {
+    "bg": "#000000",
+    "card": "#0a0a0a",
+    "line": "#262626",
+    "ink": "#fafafa",
+    "muted": "#999999",
+    "accent": "#a855f7",
+    "accentStrong": "#9333ea",
+    "accentSoft": "#c084fc",
+    "success": "#3dbb72",
+    "danger": "#ef4444"
+  },
+  "fonts": {
+    "head": "Geist",
+    "body": "Geist",
+    "mono": "Geist Mono",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700;800&family=Geist+Mono:wght@500;700&display=swap"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "YOUR_ELEVENLABS_VOICE_ID",
+    "model": "eleven_multilingual_v2",
+    "speed": 0.87,
+    "notes": "Use your own cloned voice or a stock narrator. Keys live in .env as ELEVENLABS_API_KEY."
+  },
+  "cta": {
+    "default": "Link in bio",
+    "sub": "Free to try",
+    "commentWord": null,
+    "_commentWordNote": "Only set commentWord once you have DM automation that answers the comment."
+  },
+  "captions": {
+    "sentences": [2, 5],
+    "hashtags": [8, 12],
+    "endOnQuestion": true
+  },
+  "banned": [
+    "nobody's talking about",
+    "here's exactly how",
+    "here's what you need to know"
+  ],
+  "safeZone": {
+    "width": 1080,
+    "height": 1920,
+    "top": 240,
+    "bottom": 1680
+  }
+}

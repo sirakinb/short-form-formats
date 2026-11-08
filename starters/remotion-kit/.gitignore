@@ -1,0 +1,5 @@
+node_modules/
+out/
+public/brand/
+# The root .gitignore skips *.mp4; keep the small placeholder take so the sample works after a clone.
+!public/video/take.mp4

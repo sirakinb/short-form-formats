@@ -1,0 +1,7 @@
+.DS_Store
+.env
+*.mp4
+node_modules/
+out/
+__pycache__/
+*.pyc

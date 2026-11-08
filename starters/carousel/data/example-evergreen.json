@@ -1,0 +1,92 @@
+{
+  "_about": "Evergreen example in the brand theme. A neutral how-to: the hook is the outcome, your product only shows up as the helper.",
+  "theme": "brand",
+  "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube",
+    "linkedin"
+  ],
+  "platforms_label": "One video, every feed",
+  "slides": [
+    {
+      "type": "hook",
+      "chip": "How-to",
+      "lead": "Turn one video into",
+      "product": "a week of posts.",
+      "sub": "Record once on Monday. Post daily until Sunday."
+    },
+    {
+      "type": "diagram",
+      "kicker": "The idea",
+      "title": "One source, many cuts.",
+      "sub": "A single 10-minute answer holds a week of short posts.",
+      "nodes": [
+        "3 short clips",
+        "2 quote cards",
+        "1 carousel",
+        "1 long post"
+      ]
+    },
+    {
+      "type": "step",
+      "kicker": "Step 1",
+      "title": "Record one answer.",
+      "sub": "Pick the question your audience asks most. Answer it on camera. No script, just this card:",
+      "prompt": "1. The question, in their words.\n2. Three points, one line each.\n3. One real example.\n4. What to do next.",
+      "foot": "Save this card"
+    },
+    {
+      "type": "step",
+      "kicker": "Step 2",
+      "title": "Find the best moments.",
+      "sub": "Paste the transcript into any AI chat with this prompt:",
+      "prompt": "Here is my video transcript. Find the 5 strongest moments. For each one, give me the start time, the end time and a one-line hook under 10 words.",
+      "foot": "Save this prompt"
+    },
+    {
+      "type": "step",
+      "kicker": "Step 3",
+      "title": "Cut the clips.",
+      "sub": "Trim each moment to 20 to 40 seconds and add captions.",
+      "shot": "placeholder-shot.png",
+      "crop": [
+        0.15,
+        0.3,
+        0.7,
+        0.4
+      ],
+      "foot": "Replace with your own screenshot"
+    },
+    {
+      "type": "list",
+      "kicker": "Save this",
+      "title": "Your week, mapped.",
+      "items": [
+        [
+          "Mon and Thu",
+          "A short clip with the strongest hook."
+        ],
+        [
+          "Tue",
+          "A quote card from the best line."
+        ],
+        [
+          "Wed",
+          "A carousel of the steps you explained."
+        ],
+        [
+          "Fri",
+          "The full video, with a question in the caption."
+        ]
+      ]
+    },
+    {
+      "type": "cta",
+      "kicker": "Want the template?",
+      "title": "Record once. Post all week.",
+      "sub": "Get the prompt and the week plan from {name}."
+    }
+  ],
+  "caption": "One 10-minute video can fill a whole week of posts. Record one answer, pull the 5 best moments with a single prompt, cut them into clips, and spread them across the week with a quote card and a carousel in between. Save this so you have the prompt and the plan next time. Which day would you post the full video?\n\n#contentcreator #contentstrategy #socialmediatips #repurposecontent #videomarketing #creatortips #smallbusiness #tiktoktips #instagramtips #marketingtips"
+}

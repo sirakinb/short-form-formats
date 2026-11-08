@@ -1,0 +1,9 @@
+# Renders and preview artifacts stay out of git
+out/
+*.mp4
+*.mov
+*.webm
+hf/renders/
+hf/.hyperframes/
+hf/.thumbnails/
+hf/node_modules/
