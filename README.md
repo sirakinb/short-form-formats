@@ -66,3 +66,7 @@ Read [ADAPT.md](ADAPT.md): set your brand kit, pick two or three formats, change
 ## Use with Claude Code
 
 This repo is also a Claude Code skill (`SKILL.md`). Clone it into `~/.claude/skills/short-form-formats` and ask for "a faceless explainer about X" or "remake this reel: <link>".
+
+## License
+
+The code and guides are MIT licensed (see `LICENSE`). The Geist fonts in `starters/hyperframes-explainer/fonts` are under the SIL Open Font License (`OFL.txt` there). Brand logos, product screenshots and the example frames are shown for illustration and belong to their owners; replace them with your own material.
